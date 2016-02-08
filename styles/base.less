@@ -219,6 +219,9 @@ atom-text-editor .search-results .marker.current-result .region,
   &.name.tag {
     color: @red;
     text-decoration: underline;
+    &.slim .leading-whitespace {
+      display: inline-block;
+    }
   }
 
   &.other.attribute-name {
