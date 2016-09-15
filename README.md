@@ -4,7 +4,9 @@ A syntax highlighting theme for the [Atom text editor](https://atom.io/) whose c
 not ripped off from Lonely Planet's [Rizzo](https://github.com/lonelyplanet/rizzo) styles and what
 do you even mean oh no please don't sue me.
 
-There is also a corresponding colour scheme for the iTerm2 terminal emulator: [csutter/chester-iterm2-colors](https://github.com/csutter/chester-iterm2-colors).
+There are also corresponding colour scheme for the iTerm2 and HyperTerm terminal emulators:
+* [csutter/chester-iterm2-colors](https://github.com/csutter/chester-iterm2-colors)
+* [ynnoj/hyperterm-chestered](https://github.com/ynnoj/hyperterm-chestered)
 
 ### Screenshot
 
