@@ -219,6 +219,9 @@ atom-text-editor .search-results .syntax--marker.syntax--current-result .syntax-
   &.syntax--name.syntax--tag {
     color: @red;
     text-decoration: underline;
+    &.slim .leading-whitespace {
+      display: inline-block;
+    }
   }
 
   &.syntax--other.syntax--attribute-name {
