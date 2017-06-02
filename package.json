@@ -3,6 +3,12 @@
   "theme": "syntax",
   "version": "0.1.1",
   "description": "A pretty Atom syntax theme based on Lonely Planet colours",
+  "keywords": [
+    "chester",
+    "syntax",
+    "theme",
+    "atom"
+  ],
   "repository": "https://github.com/csutter/chester-atom-syntax",
   "license": "MIT",
   "engines": {
