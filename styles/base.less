@@ -302,14 +302,43 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
 }
 
-.syntax--source.syntax--gfm .syntax--markup {
-  -webkit-font-smoothing: auto;
-  &.syntax--heading {
+.syntax--source.syntax--gfm {
+  .syntax--markup {
+    -webkit-font-smoothing: auto;
+    &.syntax--heading-1, &.syntax--heading-2, &.syntax--heading-3 {
+      color: @cyan;
+    }
+
+    &.syntax--heading-4, &.syntax--heading-5, &.syntax--heading-6 {
+      color: @green;
+    }
+
+    &.syntax--marker {
+      color: @white;
+    }
+  }
+
+  .syntax--link {
+    .syntax--entity {
+      color: @green;
+    }
+    .syntax--link {
+      color: @softblue;
+      .syntax--begin, .syntax--end {
+        color: @syntax-text-color;
+      }
+    }
+  }
+
+  .syntax--table {
     color: @green;
+
+    .syntax--border {
+      color: @gray;
+    }
   }
 }
 
-atom-text-editor[mini] .scroll-view,
-atom-text-editor([mini]) .scroll-view {
+atom-text-editor[mini] .scroll-view {
   padding-left: 1px;
 }
