@@ -1,6 +1,6 @@
 @import "syntax-variables";
 
-atom-text-editor, atom-text-editor {
+atom-text-editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
@@ -51,14 +51,12 @@ atom-text-editor, atom-text-editor {
   }
 }
 
-atom-text-editor .search-results .syntax--marker .region,
 atom-text-editor .search-results .syntax--marker .region {
   background-color: transparent;
   border: 1px solid @syntax-result-marker-color;
 }
 
-atom-text-editor .search-results .syntax--marker.syntax--current-result .syntax--region,
-atom-text-editor .search-results .syntax--marker.syntax--current-result .syntax--region {
+atom-text-editor .search-results .syntax--marker.current-result .region {
   border: 1px solid @syntax-result-marker-color-selected;
 }
 
@@ -140,7 +138,6 @@ atom-text-editor .search-results .syntax--marker.syntax--current-result .syntax-
 .syntax--string {
   color: @green;
 
-
   &.syntax--regexp {
     color: @cyan;
 
@@ -152,6 +149,11 @@ atom-text-editor .search-results .syntax--marker.syntax--current-result .syntax-
   &.syntax--other.syntax--link {
     color: @red;
   }
+}
+
+// PHP embedding in HTML string fix
+.syntax--string .syntax--embedded.syntax--php {
+  color: @very-light-gray;
 }
 
 .syntax--punctuation {
@@ -219,7 +221,7 @@ atom-text-editor .search-results .syntax--marker.syntax--current-result .syntax-
   &.syntax--name.syntax--tag {
     color: @red;
     text-decoration: underline;
-    &.slim .leading-whitespace {
+    &.syntax--slim .leading-whitespace {
       display: inline-block;
     }
   }
