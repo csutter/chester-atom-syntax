@@ -1,3 +1,6 @@
+## 0.2.1
+* Code embedded in strings is properly formatted, and no longer green.
+
 ## 0.2.0 - Deprecations
 * Fixed a deprecation error
 * Added markdown highlighting for headers, links, images, & tables.
