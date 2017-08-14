@@ -1,6 +1,3 @@
-## 0.3.1
-* Renamed from chester-atom-syntax to chester-syntax.
-
 ## 0.3.0
 * Classes in TypeScript no longer cause everything inside to be yellow.
 
