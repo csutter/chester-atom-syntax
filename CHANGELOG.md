@@ -1,3 +1,7 @@
+## 0.3.0
+* Classes in TypeScript no longer cause everything inside to be yellow.
+* Renamed from chester-atom-syntax to chester-syntax
+
 ## 0.2.1
 * Code embedded in strings is properly formatted, and no longer green.
 
