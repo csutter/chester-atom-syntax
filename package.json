@@ -1,7 +1,7 @@
 {
   "name": "chester-atom-syntax",
   "theme": "syntax",
-  "version": "0.4.0",
+  "version": "0.2.0",
   "description": "A pretty Atom syntax theme based on Lonely Planet colours",
   "keywords": [
     "chester",
