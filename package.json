@@ -7,7 +7,9 @@
     "chester",
     "syntax",
     "theme",
-    "atom"
+    "atom",
+    "clean",
+    "sexy"
   ],
   "repository": "https://github.com/csutter/chester-atom-syntax",
   "license": "MIT",
